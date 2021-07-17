@@ -1,6 +1,6 @@
 {
 	"vowels": ["a", "aa", "i", "ii", "u", "uu", ".r", ".rr", ".l", ".ll", "è", "e", "ai", "ò", "o", "au"],
-	"yogavaahas": [".m", ".h", ""],
+	"yogavaahas": [".m", ".h", "~m"],
 	"virama": [""],
 	"consonants": ["k", "kh", "g", "gh", "\"n", 
 		"c", "ch", "j", "jh", "~n", 
