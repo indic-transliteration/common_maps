@@ -1,0 +1,1 @@
+Shared string to string maps stored as JSON files, used for transliteration from one script to another. Example users: [sanscript.js](https://github.com/indic-transliteration/sanscript.js) and [indic_transliteration_py](https://github.com/indic-transliteration/indic-transliteration_py).
