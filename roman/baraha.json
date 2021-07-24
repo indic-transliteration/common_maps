@@ -10,9 +10,8 @@
 	"zwj": ["^"],
 	""zwnj": ["^^"],
 	"skip": "_",
-	"accents_comments":["vertical line above (udatta)", "horizontal line below (anudatta)","horizontal line above", "dot below (nukta)", "dot above", "double vertical line above (svarita)"],
+	"_accents_comments":["vertical line above (udatta)", "horizontal line below (anudatta)","horizontal line above", "dot below (nukta)", "dot above", "double vertical line above (svarita)"],
 	"accents": ["#", "q","Q","V", "W", "$"], 
-    "extra_consonants": [".k", "q", ".g", "z", ".D", ".Dh", "f", "Y", ".Rh", ".L", "n2"],
 	"alternates": {
         "A": ["aa"], "I": ["ee"], "U": ["oo"],
 				"kh":["K"], "gh":["G"],
