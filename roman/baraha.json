@@ -1,7 +1,7 @@
 {
 	"vowels": ["a", "A", "i", "I", "u", "U", "Ru", "RU", "~lu", "~lU", "e", "E", "ai", "o", "O", "au", "", ""],
 	"_vowel_comment": ["omissions  from optitrans_dravidian", "ea","oa"],
-	"yogavaahas": ["M", "H", "~M", "", "", "(gg)"],
+	"yogavaahas": ["M", "H", "~M", "", "", "(gg)", "(gm)"],
 	"_vowel_comment": ["omissions  from optitrans_dravidian", "kH","pH"],
 	"virama": [""],
 	"consonants": ["k", "kh", "g", "gh", "~g", "ch", "Ch", "j", "jh", "~j", "T", "Th", "D", "Dh", "N", "t", "th", "d", "dh", "n", "p", "ph", "b", "bh", "m", "y", "r", "l", "v", "sh", "Sh", "s", "h", "L", "kSh", "j~ja"],
@@ -10,7 +10,7 @@
 	"zwj": ["^"],
 	""zwnj": ["^^"],
 	"skip": "_",
-	"accents_comments":["vertical line above (udatta)", "horizontal line below (anudatta)","horizontal line above", "dot below (nukta)", "dot above", "double vertical line above (svarita)"]
+	"accents_comments":["vertical line above (udatta)", "horizontal line below (anudatta)","horizontal line above", "dot below (nukta)", "dot above", "double vertical line above (svarita)"],
 	"accents": ["#", "q","Q","V", "W", "$"], 
     "extra_consonants": [".k", "q", ".g", "z", ".D", ".Dh", "f", "Y", ".Rh", ".L", "n2"],
 	"alternates": {
@@ -21,11 +21,9 @@
         "~n": ["JN"],
         "v": ["w"],
         "sh": ["S"],
-				"h":["~h"]
-        "x": ["kS", "ksh"],
-        "jn": ["GY", "dny"],
+				"h":["~h"],
+				"V":"x",
         "|": ["."],
-        "||": [".."],
-        "z": ["J"]
+        "||": [".."]
     }
 }
