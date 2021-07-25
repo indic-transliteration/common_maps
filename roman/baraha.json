@@ -8,7 +8,7 @@
 	"symbols": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "OM", "&", "|", "||"],
 	"candra": ["~M"],
 	"zwj": ["^"],
-	""zwnj": ["^^"],
+	"zwnj": ["^^"],
 	"skip": "_",
 	"_accents_comments":["vertical line above (udatta)", "horizontal line below (anudatta)","horizontal line above", "dot below (nukta)", "dot above", "double vertical line above (svarita)"],
 	"accents": ["#", "q","Q","V", "W", "$"], 
