@@ -56,20 +56,31 @@ jobs:
             ${{ runner.os }}-
 
       - name : Install dependencies
-        run  : 'npm install'
-
+        run: |
+          cd js
+          npm install
+          cd ..
       # The below steps are basically `npm run prepare`
       # split out to improve visibility in case we need
       # to debug.
 
       - name : Run validation
-        run  : 'npm run validate'
-
+        run: |
+          cd js
+          npm run validate
+          cd ..
       - name : Build dist build
-        run  : 'npm run build'
-
+        run: |
+          cd js
+          npm run build
+          cd ..
       - name : Run transpilation
-        run  : 'npm run transpile'
-
+        run: |
+          cd js
+          npm run tranpile
+          cd ..
       - name : Run tests
-        run  : 'npm run test'
+        run: |
+          cd js
+          npm run test
+          cd ..
