@@ -77,7 +77,7 @@ jobs:
       - name : Run transpilation
         run: |
           cd js
-          npm run tranpile
+          npm run transpile
           cd ..
       - name : Run tests
         run: |
