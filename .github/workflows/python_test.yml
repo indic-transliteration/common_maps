@@ -23,17 +23,22 @@ jobs:
 #         python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
-    - name: Checkout tools repo
+    - name: Checkout py repo
       uses: actions/checkout@v2
       with:
         repository: indic-transliteration/indic_transliteration_py
-        submodules: false
+        submodules: true
         path: py
         fetch-depth: 1
     - uses: actions/checkout@v2
       with:
         path: py/indic_transliteration/sanscript/schemes/data
         fetch-depth: 1
+    - name: Set content to pull request
+      if: ${{ github.event_name == 'pull_request'}}
+      uses: actions/checkout@master
+      with:
+        path: py/indic_transliteration/sanscript/schemes/data
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
