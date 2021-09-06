@@ -34,6 +34,7 @@
 "ौ" = "ௌ"
 
 [yogavaahas]
+# Note that the so called tamiL anusvAra is to be deprecated - https://unicode.org/L2/L2012/12018-tamil-anusvara-depr.pdf .
 "ं" = "ம்"
 "ः" = "ஃ"
 "ँ" = ""
