@@ -1,3 +1,9 @@
+# TODO : འ -A, ཀྵ KSa, ཪ RA, ཫ Ka, ཬ RRa
+# Subjoined letters  ྐ	ྑ	ྒ	ྒྷ	ྔ	ྕ	ྖ	ྗ		ྙ	ྚ	ྛ	ྜ	ྜྷ	ྞ	ྟ
+#  U+0FAx	ྠ	ྡ	ྡྷ	ྣ	ྤ	ྥ	ྦ	ྦྷ	ྨ	ྩ	ྪ	ྫ	ྫྷ	ྭ	ྮ	ྯ
+#  U+0FBx	ྰ	ྱ	ྲ	ླ	ྴ	ྵ	ྶ	ྷ	ྸ	ྐྵ	ྺ	ྻ	ྼ
+# Pluta - ྅
+
 [vowels]
 "अ" = "ཨ"
 "आ" = "ཨཱ"
