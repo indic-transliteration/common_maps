@@ -23,7 +23,7 @@
 "ः" = "ḥ"
 "ᳵ" = "ẖ"
 "ḫ" = "ᳶ"
-"ँ" = "~"
+"ँ" = "m̐"
 
 [virama]
 "्" = ""
@@ -117,10 +117,10 @@
 "ऴ" = "ḻ"
 "ऩ" = "ṉ"
 "ऱ्" = "r̆"
-"थ़" = "s̱"
-"स़" = "s̤"
-"ह़" = "h̤"
-"त़" = "t̤"
+"थ़" = "s̱" # urdu ث, approximated by t
+"स़" = "s̤" # urdu ص, approximated by s
+"ह़" = "h̤" # urdu ح, approximated by h
+"त़" = "t̤" # 
 "झ़" = "ž"
 
 "च़" = "ʦ" # used in kAshmIri and transliterated as ʦ by Grierson.
@@ -162,7 +162,8 @@
 "ṣ" = ["ṣ"]
 "ṛ" = [ "ṛ"]
 "ṛh" = [ "ṛh"]
-"k͟h" = [ "ḵẖ"] # shakespear urdu dicts
+"k͟h" = [ "ḵẖ"] # shakespear urdu dict
+"q" = ["ḳ"] # shakespear urdu dict
 "w" = [ "ẉ"] # some urdu dicts
 "ġ" = ["g̠ẖ"] # some urdu dicts
 "́" = [ "¹",]
