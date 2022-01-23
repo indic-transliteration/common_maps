@@ -21,6 +21,8 @@
 [yogavaahas]
 "ं" = "ṁ"
 "ः" = "ḥ"
+"ᳵ" = "ẖ"
+"ḫ" = "ᳶ"
 "ँ" = "~"
 
 [virama]
@@ -114,6 +116,19 @@
 "ऱ" = "ṟ"
 "ऴ" = "ḻ"
 "ऩ" = "ṉ"
+"ऱ्" = "r̆"
+"थ़" = "s̱"
+"स़" = "s̤"
+"ह़" = "h̤"
+"त़" = "t̤"
+"झ़" = "ž"
+
+"च़" = "ʦ" # used in kAshmIri and transliterated as ʦ by Grierson.
+"छ़" = "ʦh" # used in kAshmIri and transliterated as ʦh by Grierson
+"ذ" = "ẕ" # urdu ذ
+"ض" = "ż"  # urdu ض "emphatic" /d/: pharyngealized voiced alveolar stop, lateral sides of tongue pressed to palate, front touching. Some urdu dicts use z̤.
+"ظ" = "ẓ"  # urdu ظ  velarized voiced dental fricative.  Some urdu dicts use z̤.
+"व़" = "w"  # urdu و, devanAgarI equivalent made up
 
 [accented_vowel_alternates]
 "á" = [ "á",]
@@ -147,4 +162,6 @@
 "ṣ" = ["ṣ"]
 "ṛ" = [ "ṛ"]
 "ṛh" = [ "ṛh"]
+"k͟h" = [ "ḵẖ"] # some urdu dicts
+"w" = [ "ẉ"] # some urdu dicts
 "́" = [ "¹",]
