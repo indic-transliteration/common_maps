@@ -162,6 +162,8 @@
 "ṣ" = ["ṣ"]
 "ṛ" = [ "ṛ"]
 "ṛh" = [ "ṛh"]
-"k͟h" = [ "ḵẖ"] # some urdu dicts
+"k͟h" = [ "ḵẖ"] # shakespear urdu dicts
 "w" = [ "ẉ"] # some urdu dicts
+"ġ" = ["g̠ẖ"] # some urdu dicts
 "́" = [ "¹",]
+"r̥" = ["r̤i"] # Platts urud dict
