@@ -28,6 +28,9 @@
 [virama]
 "्" = ""
 
+[zwj]
+"\u200d" = "{}"
+
 [accents]
 "॑" = "̭"
 "॒" = "॒"
@@ -162,7 +165,7 @@
 "ṣ" = ["ṣ"]
 "ṛ" = [ "ṛ"]
 "ṛh" = [ "ṛh"]
-"k͟h" = [ "ḵẖ"] # shakespear urdu dict
+"k͟h" = [ "ḵẖ", "ḵh"] # shakespear urdu dict
 "q" = ["ḳ"] # shakespear urdu dict
 "w" = [ "ẉ"] # some urdu dicts
 "ġ" = ["g̠ẖ"] # some urdu dicts
