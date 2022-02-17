@@ -129,3 +129,14 @@ jn = [ "GY", "dny",]
 "|" = [ ".",]
 "||" = [ "..",]
 z = [ "J",]
+
+[shortcuts]
+"~nc" = "nc"
+"~nC" = "nC"
+"~nj" = "nj"
+"~nJ" = "nJ"
+"~Nk" = "nk"
+"~NK" = "nK"
+"~Ng" = "ng"
+"~NG" = "nG"
+"~Nx" = "nx"
