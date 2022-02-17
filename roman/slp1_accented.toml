@@ -80,8 +80,9 @@
 
 [accents]
 "॑" = "̭"
-"॒" = "॒"
-"᳡" = "̀"
+"॒" = "\\"
+"᳡" = "^"
+# Discussion at https://github.com/sanskrit-lexicon/csl-orig/issues/605 suggests that once the convention was "Underlying accent is marked using the graphs / and ^ before the vowel to mark udatta and independent svarita respectively". But then "At some point, Peter/Malcolm decided that the accent should be AFTER the vowel." 
 "꣡" = "/"
 "꣢" = "²"
 "꣣" = "³"
