@@ -21,6 +21,9 @@
 "ः" = "H"
 "ँ" = "~"
 
+# Use noted in some dict files.
+"ꣳ" = "M£"
+
 [virama]
 "्" = ""
 
@@ -73,7 +76,7 @@
 "७" = "7"
 "८" = "8"
 "९" = "9"
-"ॐ" = "oM"
+"ॐ" = "AUM" # Not really in SLP1. oM can cause वरुण्ॐऽशो 
 "ऽ" = "'"
 "।" = "."
 "॥" = ".."
