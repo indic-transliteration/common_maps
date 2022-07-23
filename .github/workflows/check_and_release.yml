@@ -11,48 +11,10 @@ on:
       - master # run on pull requests to `master`
 
 jobs:
-  prerelease:
-    runs-on: ubuntu-latest
-
-    name: Run prerelease scripts
-
-    steps:
-      - uses : actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 1
-      - name : Use Node.js version ${{ matrix.node-version }}
-        uses : actions/setup-node@v3
-        with :
-          node-version: ${{ matrix.node-version }}
-
-      - name : Install dependencies
-        run  : 'npm install'
-
-      # The below steps are basically `npm run prepare`
-      # split out to improve visibility in case we need
-      # to debug.
-
-      - name : Run linting
-        run  : 'npm run lint'
-
-      - name : Run validation
-        run  : 'npm run validate'
-
-      - name : Build dist build
-        run  : 'npm run build'
-
-      - name : Run transpilation
-        run  : 'npm run transpile'
-
-      - name : Run tests
-        run  : 'npm run test'
-
-
   release:
     runs-on: ubuntu-latest
     name: Run release scripts
-    needs: prerelease
+#    needs: prerelease
     steps:
       - uses : actions/checkout@v3
         with:
