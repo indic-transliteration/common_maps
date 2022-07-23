@@ -1,0 +1,16 @@
+{
+  "name": "@sanskrit-coders/common_maps",
+  "version": "1.0.0",
+  "description": "Shared string to string maps stored as TOML files, used for transliteration from one script to another. Example users: [sanscript.js](https://github.com/indic-transliteration/sanscript.js) and [indic_transliteration_py](https://github.com/indic-transliteration/indic-transliteration_py).",
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grosmar/common_maps.git"
+  },
+  "author": "Arun Prasad and Sanskrit coders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grosmar/common_maps/issues"
+  },
+  "homepage": "https://github.com/grosmar/common_maps#readme"
+}
