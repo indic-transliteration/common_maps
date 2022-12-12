@@ -96,6 +96,7 @@
 "॥" = "॥"
 
 [extra_consonants]
+# Awaits https://www.unicode.org/L2/L2020/20085-telugu-nukta.pdf
 "क़" = ""
 "ख़" = ""
 "ग़" = ""
@@ -106,3 +107,4 @@
 "य़" = ""
 "ऱ" = "ఱ"
 "ऴ" = "ఴ"
+"ऩ" = ""
