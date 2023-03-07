@@ -1,0 +1,182 @@
+[vowels]
+"अ" = "a"
+"आ" = "ā"
+"इ" = "i"
+"ई" = "ī"
+"उ" = "u"
+"ऊ" = "ū"
+"ऋ" = "r̥"
+"ॠ" = "r̥̄"
+"ऌ" = "l̥"
+"ॡ" = "l̥̄"
+"ऎ" = "e"
+"ए" = "ai"
+"ऐ" = "āi"
+"ऒ" = "o"
+"ओ" = "au"
+"औ" = "āu"
+"ऍ" = "ê"
+"ऑ" = "ô"
+
+[yogavaahas]
+"ं" = "ṁ"
+"ः" = "ḥ"
+"ᳵ" = "ẖ"
+"ḫ" = "ᳶ"
+"ँ" = "m̐"
+
+[virama]
+"्" = ""
+
+[zwj]
+"\u200d" = "{}"
+
+[accents]
+"॑" = "̭"
+"॒" = "॒"
+"᳡" = "̀"
+"꣡" = "́"
+"꣢" = "²"
+"꣣" = "³"
+"꣤" = "⁴"
+"꣥" = "⁵"
+"꣦" = "⁶"
+"꣧" = "⁷"
+"꣨" = "⁸"
+"꣩" = "⁹"
+"꣪" = "꣪"
+"꣫" = "꣫"
+"꣬" = "꣬"
+"꣭" = "꣭"
+"꣮" = "꣮"
+"꣯" = "꣯"
+"꣰" = "꣰"
+"꣱" = "꣱"
+
+[consonants]
+"क" = "k"
+"ख" = "kh"
+"ग" = "g"
+"घ" = "gh"
+"ङ" = "ṅ"
+"च" = "c"
+"छ" = "ch"
+"ज" = "j"
+"झ" = "jh"
+"ञ" = "ñ"
+"ट" = "ṭ"
+"ठ" = "ṭh"
+"ड" = "ḍ"
+"ढ" = "ḍh"
+"ण" = "ṇ"
+"त" = "t"
+"थ" = "th"
+"द" = "d"
+"ध" = "dh"
+"न" = "n"
+"प" = "p"
+"फ" = "ph"
+"ब" = "b"
+"भ" = "bh"
+"म" = "m"
+"य" = "y"
+"र" = "r"
+"ल" = "l"
+"व" = "v"
+"श" = "ś"
+"ष" = "ṣ"
+"स" = "s"
+"ह" = "h"
+"ळ" = "ḷ"
+"क्ष" = "kṣ"
+"ज्ञ" = "jñ"
+
+[symbols]
+"०" = "0"
+"१" = "1"
+"२" = "2"
+"३" = "3"
+"४" = "4"
+"५" = "5"
+"६" = "6"
+"७" = "7"
+"८" = "8"
+"९" = "9"
+"ॐ" = "ōṁ"
+"ऽ" = "'"
+"।" = "।"
+"॥" = "॥"
+
+[extra_consonants]
+"क़" = "q"
+"ख़" = "k͟h"
+"ग़" = "ġ"
+"ज़" = "z"
+"ड़" = "ṛ"
+"ढ़" = "ṛh"
+"फ़" = "f"
+"य़" = "ẏ"
+"ऱ" = "ṟ"
+"ऴ" = "ḻ"
+"ऩ" = "ṉ"
+"ऱ्" = "r̆"
+"थ़" = "s̱" # urdu ث, approximated by t
+"स़" = "s̤" # urdu ص, approximated by s
+"ह़" = "h̤" # urdu ح, approximated by h
+"त़" = "t̤" # 
+"झ़" = "ž"
+
+"च़" = "ʦ" # used in kAshmIri and transliterated as ʦ by Grierson.
+"छ़" = "ʦh" # used in kAshmIri and transliterated as ʦh by Grierson
+"ذ" = "ẕ" # urdu ذ
+"ض" = "ż"  # urdu ض "emphatic" /d/: pharyngealized voiced alveolar stop, lateral sides of tongue pressed to palate, front touching. Some urdu dicts use z̤.
+"ظ" = "ẓ"  # urdu ظ  velarized voiced dental fricative.  Some urdu dicts use z̤.
+"व़" = "w"  # urdu و, devanAgarI equivalent made up
+
+[accented_vowel_alternates]
+"á" = [ "á",]
+"é" = [ "é",]
+"í" = [ "í",]
+"aí" = [ "aí",]
+"ó" = [ "ó",]
+"ú" = [ "ú",]
+"aú" = [ "aú",]
+# Macron etc. in different orders
+"ŕ̥" = [ "ŕ̥", "ŕ̥"]
+"ŕ̥̄" = [ "ŕ̥̄", "ŕ̥̄", "ŕ̥̄", "r̥̄́", "r̥̄́", "r̥̄́", "ŕ̥̄"]
+"à" = [ "à",]
+"ì" = [ "ì",]
+"aì" = [ "aì",]
+"āì" = [ "āì",]
+"ù" = [ "ù",]
+"aù" = [ "aù",]
+"āù" = [ "āù",]
+# Macron etc. in different orders
+"r̥̀" = [ "r̥̀" ]
+"r̥̀̄" = [ "r̥̀̄", "r̥̄̀", "r̥̄̀", "r̥̄̀", "r̥̀̄"]
+
+
+[alternates]
+"|" = [ ".", "/",]
+"||" = [ "..", "//",]
+"'" = [ "`",]
+"m̐" = [ "ṁ",]
+"ṝ" = [ "ṝ", "r̥̄", "r̥̄", "ṝ", "ṝ",]
+"ṃ" = ["ṃ"]
+"ḥ" = ["ḥ"]
+"ṭ" = ["ṭ"]
+"ṭh" = ["ṭh"]
+"ḍ" = ["ḍ"]
+"ḍh" = ["ḍh"]
+"ṇ" = ["ṇ"]
+"ṅ" = ["ṅ"]
+"ñ" = ["ñ"]
+"ṣ" = ["ṣ"]
+"ṛ" = [ "ṛ"]
+"ṛh" = [ "ṛh"]
+"k͟h" = [ "ḵẖ", "ḵh"] # shakespear urdu dict
+"q" = ["ḳ"] # shakespear urdu dict
+"w" = [ "ẉ"] # some urdu dicts
+"ġ" = ["g̠ẖ"] # some urdu dicts
+"́" = [ "¹",]
+"r̥" = ["r̤i"] # Platts urud dict
