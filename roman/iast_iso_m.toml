@@ -117,7 +117,7 @@
 [alternates]
 "|" = [ ".", "/",]
 "||" = [ "..", "//",]
-"'" = [ "`",]
+"'" = [ "`", "’"] # \’ is used by Brill in hairbhaktivilAsa
 "ṃ" = ["ṃ", "ṁ", "ṁ"] # ṁ is used for anunAsika in TITUS satapatha ch 12. 
 "ḥ" = ["ḥ"]
 "ṭ" = ["ṭ"]
