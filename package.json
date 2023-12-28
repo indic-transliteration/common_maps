@@ -1,6 +1,6 @@
 {
   "name": "@indic-transliteration/common_maps",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared string to string maps stored as TOML files, used for transliteration from one script to another. Example users: [sanscript.js](https://github.com/indic-transliteration/sanscript.js) and [indic-transliteration_py](https://github.com/indic-transliteration/indic-transliteration_py).",
   
   "repository": {
