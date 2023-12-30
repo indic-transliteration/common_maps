@@ -1,3 +1,7 @@
+# References -
+# https://mirrors.mit.edu/CTAN/language/devanagari/velthuis/doc/manual.pdf
+# Wiki
+
 [vowels]
 "अ" = "a"
 "आ" = "aa"
@@ -6,8 +10,10 @@
 "उ" = "u"
 "ऊ" = "uu"
 "ऋ" = ".r"
+# Used by wikipedia page
 "ॠ" = ".rr"
 "ऌ" = ".l"
+# Used by wikipedia page
 "ॡ" = ".ll"
 "ऎ" = "è"
 "ए" = "e"
@@ -62,6 +68,15 @@
 "क्ष" = "k.s"
 "ज्ञ" = "j~n"
 
+[extra_consonants]
+"क़" = "q"
+"ख़" = ".kh"
+"ग़" = ".g"
+"ज़" = "z"
+"ड़" = "R"
+"ढ़" = "Rh"
+"फ़" = "f"
+
 [symbols]
 "०" = "0"
 "१" = "1"
@@ -77,3 +92,7 @@
 "ऽ" = ".a"
 "।" = "|"
 "॥" = "||"
+
+[alternates]
+".rr" = [ ".R",]
+".ll" = [ ".L",]
