@@ -68,7 +68,21 @@ _yogavaahas_comment = [ "omissions  from optitrans_dravidian", "kH", "pH",]
 "ह" = "h"
 "ळ" = "L"
 "क्ष" = "kSh"
-"ज्ञ" = "j~ja"
+"ज्ञ" = "j~j"
+
+[extra_consonants]
+# See https://baraha.com/help//Keyboards/dev-phonetic.htm
+"क़" = "kx"
+"ख़" = "Kx"
+"ग़" = "gx"
+"ज़" = "z"
+"ड़" = "Dx"
+"ढ़" = "Dhx"
+"फ़" = "f"
+"य़" = "Y"
+"ऱ" = "rx"
+"ऴ" = "Lx"
+"ऩ" = "nx"
 
 [symbols]
 "०" = "0"
@@ -99,28 +113,32 @@ _yogavaahas_comment = [ "omissions  from optitrans_dravidian", "kH", "pH",]
 "" = "_"
 
 [accents]
+# See https://baraha.com/help/special-symbols.htm  
 "॑" = "#"
 "॒" = "q"
-"᳡" = "Q"
-"꣡" = "V"
-"꣢" = "W"
-"꣣" = "$"
+"᳝" = "V"
+"᳸" = "W"
+"᳒" = "Q"
+"᳚" = "$"
 
 [alternates]
-A = [ "aa",]
-I = [ "ee",]
-U = [ "oo",]
-kh = [ "K",]
-gh = [ "G",]
-ch = [ "c",]
-Ch = [ "C",]
-jh = [ "J",]
-ph = [ "P",]
-bh = [ "B",]
+"A" = [ "aa",]
+"au" = [ "ou",]
+"I" = [ "ee",]
+"U" = [ "oo",]
+"kh" = [ "K",]
+"gh" = [ "G",]
+"z" = [ "jx",]
+"f" = [ "Px",]
+"Y" = [ "yx",]
+"ch" = [ "c",]
+"Ch" = [ "C",]
+"jh" = [ "J",]
+"ph" = [ "P",]
+"bh" = [ "B",]
 "~n" = [ "JN",]
-v = [ "w",]
-sh = [ "S",]
-h = [ "~h",]
-V = [ "x",]
+"v" = [ "w",]
+"sh" = [ "S",]
+"h" = [ "~h",]
 "|" = [ ".",]
 "||" = [ "..",]
