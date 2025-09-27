@@ -119,6 +119,7 @@
 #"||" = [ "..", "//",]
 # "'" = [ "`", "’"] # \’ is used by Brill in hairbhaktivilAsa
 "m̐" = ["ṁ", "ṁ"] # ṁ is used for anunAsika in TITUS satapatha ch 12.
+"ī" = ["ï"] # Used by GuaDIya grantha mandira in bengali transliteration.
 "ṃ" = ["ṃ"]
 "ḥ" = ["ḥ"]
 "ṭ" = ["ṭ"]
