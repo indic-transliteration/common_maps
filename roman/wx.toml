@@ -24,6 +24,32 @@
 [virama]
 "्" = ""
 
+[zwj]
+"\u200d" = "{}"
+
+[accents]
+"॑" = "̭"
+"॒" = "̱"
+"᳙" = "̀"
+"᳓" = "́" # karShna misused for udAtta
+"꣡" = "¹"
+"꣢" = "²"
+"꣣" = "³"
+"꣤" = "⁴"
+"꣥" = "⁵"
+"꣦" = "⁶"
+"꣧" = "⁷"
+"꣨" = "⁸"
+"꣩" = "⁹"
+"꣪" = "ᵃ"
+"꣫" = "ᵘ"
+"꣬" = "ᵏ"
+"꣭" = "ⁿ"
+"꣮" = "ᵖ"
+"꣯" = "ʳ"
+"꣰" = "ᵛ"
+"꣱" = "ˢ"
+
 [consonants]
 "क" = "k"
 "ख" = "K"
@@ -77,3 +103,30 @@
 "ऽ" = "'"
 "।" = "."
 "॥" = ".."
+
+[extra_consonants]
+"क़" = "क़"
+"ख़" = "k͟h"
+"ग़" = "ġ"
+"ज़" = "ज़"
+"ड़" = "ṛ"
+"ढ़" = "ṛh"
+"फ़" = "फ़"
+"य़" = "ẏ"
+"ऱ" = "ṟ"
+"ऴ" = "ḻ"
+"ऩ" = "ṉ"
+"ऱ्" = "r̆"
+"थ़" = "s̱" # urdu ث, approximated by t
+"स़" = "s̤" # urdu ص, approximated by s
+"ह़" = "h̤" # urdu ح, approximated by h
+"त़" = "t̤" # 
+"झ़" = "ž"
+
+"च़" = "ʦ" # used in kAshmIri and transliterated as ʦ by Grierson.
+"छ़" = "ʦh" # used in kAshmIri and transliterated as ʦh by Grierson
+"ذ" = "ẕ" # urdu ذ
+"ض" = "ż"  # urdu ض "emphatic" /d/: pharyngealized voiced alveolar stop, lateral sides of tongue pressed to palate, front touching. Some urdu dicts use z̤.
+"ظ" = "ẓ"  # urdu ظ  velarized voiced dental fricative.  Some urdu dicts use z̤.
+"व़" = "व़"  # urdu و, devanAgarI equivalent made up
+
