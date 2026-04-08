@@ -1,1 +1,6 @@
 .DS_Store
+.dart_tool/
+.pub/
+pubspec.lock
+.pub-cache/
+build/
