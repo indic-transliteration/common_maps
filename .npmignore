@@ -1,0 +1,12 @@
+.dart_tool/
+.pub/
+pubspec.lock
+.pub-cache/
+build/
+pubspec.yaml
+lib/
+tool/
+test/
+.analysis_options.yaml
+.github/
+.DS_Store

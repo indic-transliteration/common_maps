@@ -1,0 +1,11 @@
+name: indic_transliteration_maps
+description: Shared string to string maps stored as TOML files, used for transliteration from one script to another. Provides data for indic_transliteration_dart and other Indic transliteration libraries.
+version: 1.0.0
+repository: https://github.com/indic-transliteration/common_maps
+homepage: https://github.com/indic-transliteration/common_maps
+license: MIT
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  lints: ^6.0.0
