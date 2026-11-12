@@ -129,10 +129,10 @@
 "á" = [ "á",]
 "é" = [ "é",]
 "í" = [ "í",]
-"aí" = [ "aí",]
+"aí" = [ "aí", "ái",]  # TITUS uses ái for ai with udAtta
 "ó" = [ "ó",]
 "ú" = [ "ú",]
-"aú" = [ "aú",]
+"aú" = [ "aú", "áu",]  # TITUS uses áu for au with udAtta
 # Macron etc. in different orders
 "ŕ̥" = [ "ŕ̥", "ŕ̥"]
 "ŕ̥̄" = [ "ŕ̥̄", "ŕ̥̄", "ŕ̥̄", "r̥̄́", "r̥̄́", "r̥̄́", "ŕ̥̄"]
